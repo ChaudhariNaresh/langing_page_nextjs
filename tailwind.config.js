@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        black: '#1E2432',
+      },
       fontFamily: {
         Inter: ['Inter', 'sans-serif'],
       },

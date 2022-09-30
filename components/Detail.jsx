@@ -3,9 +3,9 @@ import React from 'react';
 
 const Detail = () => {
   return (
-    <section class="text-gray-600 body-font my-10">
-      <div class="container px-5 py-20 mx-auto">
-        <div class="mb-12">
+    <section class="body-font w-full h-full md:py-24 md:pl-[135px]">
+      <div class="">
+        <div class="my-10">
           <h3 class="sm:text-4xl text-4xl font-bold title-font text-gray-900 mb-4">
             We can help you from design
             <br />

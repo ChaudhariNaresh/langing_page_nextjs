@@ -1,17 +1,20 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import Detail from '../components/Detail';
-import Final from '../components/Final';
-import { Header } from '../components/index';
-import Main from '../components/Main';
-import Network from '../components/Network';
-import Price from '../components/Price';
-import Testimonial from '../components/Testimonial';
+
+import {
+  Navbar,
+  Main,
+  Network,
+  Price,
+  Testimonial,
+  Detail,
+  Final,
+} from '../components/index';
 
 export default function Home() {
   return (
     <div className="font-Inter">
-      <Header />
+      <Navbar />
       <Main />
       <Detail />
       <Network />

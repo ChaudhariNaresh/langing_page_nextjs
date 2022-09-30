@@ -1,4 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&family=Inter:wght@500;600;700&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@500;600;700&family=Mulish:wght@300;400;500&display=swap');
+
+.font-logo {
+  font-family: 'Exo', sans-serif;
+  font-weight: 700;
+}
+
+nav {
+  font-family: 'Mulish', sans-serif;
+}
+
+button {
+  font-family: 'Mulish', sans-serif;
+}
 
 @tailwind base;
 @tailwind components;

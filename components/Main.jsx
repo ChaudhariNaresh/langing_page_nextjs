@@ -5,21 +5,21 @@ import Aboutimg2 from '../public/assests/img2.png';
 
 const Main = () => {
   return (
-    <section class="text-gray-600 body-font my-10">
-      <div class="container mx-auto flex px-5 py-20 md:flex-row flex-col items-center">
-        <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 class="title-font font-Inter  text-6xl mb-8 font-bold text-gray-900 leading-[1.15]">
+    <section class="body-font w-full h-full md:py-24 md:pl-[135px] md:pr-[66px]">
+      <div class="container flex  md:flex-row flex-col items-center ">
+        <div class="lg:flex-grow md:w-1/2  md:pr-5 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+          <h1 class="title-font font-Inter  text-6xl mb-9 font-bold text-gray-900 leading-[1.15]">
             Creatives Ideas,
             <br class="hidden lg:inline-block" />
             What we are Adorning
           </h1>
-          <p class="mb-10 text-slate-500 leading-relaxed">
+          <p class="mb-16 text-[#7E8495] text-[20px] leading-8">
             We are a specialist agency in manufacturing design for
             <br class="hidden lg:inline-block" />
             personal and corporate brands
           </p>
-          <div class="flex mt-6 justify-center">
-            <button class="inline-flex items-center bg-gray-900 text-slate-200 border-0 py-4 px-10 focus:outline-none rounded text-base mt-4 md:mt-0">
+          <div class="">
+            <button class="items-center bg-gray-900 text-slate-200 border-0 py-6 px-14 focus:outline-none rounded text-base mt-4 ">
               Get Started
             </button>
           </div>
